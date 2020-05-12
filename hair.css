@@ -1,12 +1,16 @@
-h1 {
-  color: #DDFDD7;
-}
 
+}
+h2 {
+  color: #1E501D;
+}
 h3 {
   color: #F7FBAF;
 }
+h6 {
+  color: #667356;
+}
 .hero-background-img {
-  background-image: url("IMG_5758.jpeg");
+  background-image: url("IMG_5758.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -16,8 +20,57 @@ h3 {
   right: 0;
   bottom: 0;
   z-index: 0;
-  opacity: 2;
+  opacity: 5;
   padding-top:250px;
   padding-bottom:250px;
-  border-width: small;
+  border-width: thick;
+  border-style: double;
+  border-color: white;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding in columns */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+
+.leftcolumn {
+  float: left;
+  width: 75%;
 }

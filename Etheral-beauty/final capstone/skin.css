@@ -6,15 +6,6 @@ h2 {
   color: #DDFDD7;
 }
 
-h3 {
-  color: black;
-}
-h4 {
-  color: #C4DAF0;
-}
-h6 {
-  color: #667356;
-}
 p {
   color: #92C9FE;
   text-emphasis: bold;
@@ -33,12 +24,6 @@ p {
   z-index: 0;
   opacity: 2;
   padding-top:250px;
-  padding-bottom:300px;
-  border-width: thick;
-  border-style: double;
-  border-color: white;
-  }
-  
-  * {
-    box-sizing: border-box;
-  }
+  padding-bottom:250px;
+  border-width: small;
+}
